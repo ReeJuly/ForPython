@@ -13,4 +13,5 @@ def get_all(cwd):
             
 if __name__ == "__main__": 
     cur_path = os.getcwd()   #当前目录
+    print(cur_path)
     get_all(cur_path)
